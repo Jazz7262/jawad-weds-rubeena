@@ -109,12 +109,11 @@ function Couple() {
                         </div>
                         <div className="info groom-info">
                             <h3>
-                                Al-haaj Jawad Hussain,
+                                Alhaj Jawad Hussain,
                                 {/* <sub>B.Tech.,</sub> */}
                             </h3>
                             <p className="mt-2 mt-lg-3">
-                                Profession:{" "}
-                                <strong>Works at FLUOR Corp.,</strong>{" "}
+                                Profession: <strong>Works at FLUOR,</strong>{" "}
                                 KSA.
                             </p>
                             <p className="mt-1 mt-lg-2">
@@ -226,7 +225,9 @@ function Couple() {
 
                             <p className="mt-2 mt-lg-3">
                                 D/O Janab{" "}
-                                <strong>Mohammed Ismail Sahab (Laal Pahelwaan),</strong>
+                                <strong>
+                                    Mohammed Ismail Sahab (Lal Pailwan),
+                                </strong>
                             </p>
                             <p className="mt-1 mt-lg-2">
                                 Davanagere, Karnataka.
