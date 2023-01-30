@@ -114,7 +114,7 @@ function Couple() {
                             </h3>
                             <p className="mt-2 mt-lg-3">
                                 Profession:{" "}
-                                <strong>Works at FLUOR Corporation,</strong>{" "}
+                                <strong>Works at FLUOR Corp.,</strong>{" "}
                                 KSA.
                             </p>
                             <p className="mt-1 mt-lg-2">
