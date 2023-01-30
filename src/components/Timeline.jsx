@@ -66,8 +66,8 @@ function Timeline() {
                             <h1>Nikaah</h1>
                             <p>
                                 On Thursday, 23<sup>rd</sup> February, 2023,
-                                <br />
-                                2nd<sup>th</sup> Shaban-ul-Muazzam, 1444 Hijri,
+                                <br />2<sup>nd</sup> Shaban-ul-Muazzam, 1444
+                                Hijri,
                                 <br />
                                 Time: 12:45 PM.
                             </p>
