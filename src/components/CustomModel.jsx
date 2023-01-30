@@ -34,7 +34,7 @@ function CustomModel1() {
                         />
                         <h4>From:</h4>
                         <h4 className="invitor-name mb-5">
-                            Mr. & Mrs. C. Mohammed Jaffar Quadri
+                            Mr. & Mrs. C. Mohammed Jaffer Quadri
                             
                         </h4>
                         <button

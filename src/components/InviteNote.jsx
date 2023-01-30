@@ -6,7 +6,7 @@ function InviteNote() {
         <section id="invite-note">
             <div className="from">
                 <h5>An Invitation from:</h5>
-                <h2>Mr. & Mrs. Chanderbande Mohammed Jaffar Quadri</h2>
+                <h2>Mr. & Mrs. Chanderbande Mohammed Jaffer Quadri</h2>
 
                 <h5 className="address mb-3">
                     Residence: Silpa Elite Apartments,

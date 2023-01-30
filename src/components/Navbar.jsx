@@ -66,7 +66,7 @@ function Navbar() {
                         className="icon"
                         size="sm"
                     />
-                    Rubeena
+                    Ruheena
                 </a>
                 <button
                     className="navbar-toggler"

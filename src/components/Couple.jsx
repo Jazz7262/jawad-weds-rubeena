@@ -109,7 +109,7 @@ function Couple() {
                         </div>
                         <div className="info groom-info">
                             <h3>
-                                Jawad Hussain,
+                                Al-haaj Jawad Hussain,
                                 {/* <sub>B.Tech.,</sub> */}
                             </h3>
                             <p className="mt-2 mt-lg-3">
@@ -119,7 +119,7 @@ function Couple() {
                             </p>
                             <p className="mt-1 mt-lg-2">
                                 S/O Janab{" "}
-                                <strong>C. Mohammed Jaffar Sahab.</strong>
+                                <strong>C. Mohammed Jaffer Sahab.</strong>
                             </p>
                             {/* <p className="mt-1 mt-lg-2">
                                 S/O <strong>R Muhammad Haneef(late).</strong>
@@ -220,13 +220,13 @@ function Couple() {
                         </div>
                         <div className="info bride-info">
                             <h3>
-                                Rubeena Tabassum,
+                                Ruheena Tabassum,
                                 {/* <sub>MBA.,</sub> */}
                             </h3>
 
                             <p className="mt-2 mt-lg-3">
                                 D/O Janab{" "}
-                                <strong>Mohammed Ismail Sahab,</strong>
+                                <strong>Mohammed Ismail Sahab (Laal Pahelwaan),</strong>
                             </p>
                             <p className="mt-1 mt-lg-2">
                                 Davanagere, Karnataka.
