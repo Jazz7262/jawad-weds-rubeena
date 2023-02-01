@@ -163,7 +163,7 @@ function Couple() {
                                     <div className="img-wrapper">
                                         <img
                                             className="couple-img"
-                                            src="../assets/images/bride.png"
+                                            src="../assets/images/bride.jpeg"
                                             alt="couple_img"
                                         />
                                     </div>
@@ -172,7 +172,7 @@ function Couple() {
                                     <div className="img-wrapper">
                                         <img
                                             className="couple-img"
-                                            src="../assets/images/bride.png"
+                                            src="../assets/images/bride.jpeg"
                                             alt="couple_img"
                                         />
                                     </div>
