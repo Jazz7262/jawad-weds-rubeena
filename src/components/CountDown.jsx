@@ -3,11 +3,12 @@ import Clock from "./Clock";
 import "../styles/CountDown.css";
 
 function CountDown() {
-    let date1 = new Date("2023 2 23 12:45 PM");
+    // let date1 = new Date("2023 2 23 12:45 PM");
+    let date1 = Date.parse("2023-02-23T12:45:00");
     const [duration, setDuration] = useState({});
 
     function getDuration() {
-        let date2 = new Date();
+        let date2 = Date.now();
         let diff = date1 - date2;
 
         setDuration({
