@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Duration from "duration-js";
 import Clock from "./Clock";
 import "../styles/CountDown.css";
 
@@ -9,14 +8,19 @@ function CountDown() {
 
     function getDuration() {
         let date2 = new Date();
-
-        let diff = new Duration(date1 - date2);
+        let diff = date1 - date2;
 
         setDuration({
-            days: diff.hours() > 99 ? diff.days() : 0,
-            hours: diff.hours() > 99 ? diff.hours() % 24 : diff.hours(),
-            mins: diff.minutes() % 60,
-            secs: diff.seconds() % 60,
+            days:
+                Math.floor(diff / (1000 * 60 * 60)) > 99
+                    ? Math.floor(diff / (1000 * 60 * 60 * 24))
+                    : 0,
+            hours:
+                Math.floor(diff / (1000 * 60 * 60)) > 99
+                    ? Math.floor(diff / (1000 * 60 * 60)) % 24
+                    : Math.floor(diff / (1000 * 60 * 60)),
+            mins: Math.floor(diff / (1000 * 60)) % 60,
+            secs: Math.floor(diff / 1000) % 60,
         });
     }
 

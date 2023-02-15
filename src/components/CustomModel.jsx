@@ -9,6 +9,7 @@ function CustomModel1() {
         // $("#modal").fadeOut();
         $(".navbar").css("z-index", "2");
         $(".swing-icon").css("z-index", "2");
+        $(".animated-logo").css("z-index", "2");
         $("body").removeAttr("style");
         AOS.init({
             duration: 1000,
@@ -18,6 +19,45 @@ function CustomModel1() {
         });
 
         document.getElementById("audio").play();
+        startScroll();
+    }
+
+    // auto scroll starts when user clicks on "open" button
+    function startScroll() {
+        var length = document.querySelector("html").offsetHeight;
+        setTimeout(() => {
+            $("html, body").animate(
+                {
+                    scrollTop: length - 500,
+                },
+                20000,
+                "linear",
+                function () {
+                    $("html, body").animate(
+                        {
+                            scrollTop: 0,
+                        },
+                        5000,
+                        function () {
+                            document.querySelector(
+                                "html"
+                            ).style.scrollBehavior = "smooth";
+
+                            $("html, body").off("click");
+                        }
+                    );
+                }
+            );
+        }, 500);
+
+        // stop the auto scroll when user clicks on screen
+        setTimeout(function () {
+            $("html, body").on("click", function (event) {
+                $("html, body").stop();
+                $("html, body").off("click");
+                document.querySelector("html").style.scrollBehavior = "smooth";
+            });
+        }, 1000);
     }
     return (
         <section id="card">
@@ -35,7 +75,6 @@ function CustomModel1() {
                         <h4>From:</h4>
                         <h4 className="invitor-name mb-5">
                             Mr. & Mrs. C. Mohammed Jaffer Quadri
-                            
                         </h4>
                         <button
                             className="btn btn-primary"
